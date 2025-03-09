@@ -42,6 +42,7 @@ Open **Command Prompt (`cmd`)** and run:
 ```sh
 java -version
 javac -version
+```
 
 ---
 
@@ -62,6 +63,7 @@ Open **Terminal** and run:
 ```sh
 java -version
 javac -version
+```
 
 ---
 
@@ -79,6 +81,7 @@ Open **Terminal** and run the following commands:
 sudo mkdir -p /usr/lib/jvm
 cd ~/Downloads
 sudo tar -xvf jdk-XX.X.X_linux-x64_bin.tar.gz -C /usr/lib/jvm/
+```
 
 ### ✅ **Step 3: Set Up Java Environment Variables**
 Run the following commands to set Java as the default:
@@ -87,6 +90,7 @@ Run the following commands to set Java as the default:
 sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk-XX.X.X/bin/java 1
 sudo update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/jdk-XX.X.X/bin/javac 1
 sudo update-alternatives --config java
+```
 
 ### ✅ **Step 4: Verify Installation**
 Run the following commands to check if Java is installed correctly:
@@ -94,3 +98,4 @@ Run the following commands to check if Java is installed correctly:
 ```sh
 java -version
 javac -version
+```

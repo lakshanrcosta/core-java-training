@@ -17,6 +17,7 @@ public class Demo {
         System.out.println("Java is Platform Independent!");
     }
 }
+```
 
 ---
 
@@ -43,6 +44,7 @@ class Dog extends Animal {
         System.out.println("Dog barks");
     }
 }
+```
 
 ---
 
@@ -82,6 +84,7 @@ public class Demo {
         t1.start(); // Runs in parallel
     }
 }
+```
 
 ---
 
@@ -175,4 +178,4 @@ public class Demo {
         frame.setVisible(true);
     }
 }
-
+```
